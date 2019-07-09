@@ -5,10 +5,11 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo1_StaricaseClimbing", "Demo1_StaricaseClimbing\Demo1_StaricaseClimbing.csproj", "{5E398581-4BBA-4BA4-80C4-233E417E9BA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo2_JobSequenceSorting", "Demo2_JobSequenceSorting\Demo2_JobSequenceSorting.csproj", "{0D076885-8F0A-4162-B39D-668C92049A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveryDemoUnitTest", "EveryDemoUnitTest\EveryDemoUnitTest.csproj", "{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}"
+EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -18,11 +19,22 @@ Global
 		{5E398581-4BBA-4BA4-80C4-233E417E9BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E398581-4BBA-4BA4-80C4-233E417E9BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E398581-4BBA-4BA4-80C4-233E417E9BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D076885-8F0A-4162-B39D-668C92049A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D076885-8F0A-4162-B39D-668C92049A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D076885-8F0A-4162-B39D-668C92049A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D076885-8F0A-4162-B39D-668C92049A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DEB72D6-7EEE-4CE5-8051-1E6B77BB1804}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
