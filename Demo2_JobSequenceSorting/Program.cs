@@ -75,8 +75,8 @@ namespace Demo2_JobSequenceSorting
             foreach (var job in dependedntJob)
             {
                 // Main extraction engine of priority and secondary jobs 
-                string priorJob = ExtractPriorJobFromList(dependedntJobs, job);
-                string secondaryJob = ExtractSecondaryJobs(dependedntJobs, job);
+                var priorJob = ExtractPriorJobFromList(dependedntJobs, job);
+                var secondaryJob = ExtractSecondaryJobs(dependedntJobs, job);
 
                 // validation check
                 CheckCircularJob(dependedntJobs, priorJob);

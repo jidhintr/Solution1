@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo2_JobSequenceSorting", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveryDemoUnitTest", "EveryDemoUnitTest\EveryDemoUnitTest.csproj", "{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo3_MatrixGeneration", "Demo3_MatrixGeneration\Demo3_MatrixGeneration.csproj", "{2BBA17DD-CE26-42DA-99A5-15C5EE4A2844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo4_RegexPattern", "Demo4_RegexPattern\Demo4_RegexPattern.csproj", "{F2744633-BDC8-4963-9A38-253787166296}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7DE08F3-6392-4296-BC4E-37CD901FD6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBA17DD-CE26-42DA-99A5-15C5EE4A2844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBA17DD-CE26-42DA-99A5-15C5EE4A2844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBA17DD-CE26-42DA-99A5-15C5EE4A2844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBA17DD-CE26-42DA-99A5-15C5EE4A2844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2744633-BDC8-4963-9A38-253787166296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2744633-BDC8-4963-9A38-253787166296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2744633-BDC8-4963-9A38-253787166296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2744633-BDC8-4963-9A38-253787166296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
