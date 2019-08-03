@@ -7,7 +7,7 @@ namespace Demo1_StaricaseClimbing
     {
         private static void Main(string[] args)
         {
-            var stairCounts = 35;
+            var stairCounts = 25;
             var maxSteps = 2;
 
             Console.WriteLine($"Count number of ways to climb {stairCounts} by maximum of" +
@@ -22,8 +22,8 @@ namespace Demo1_StaricaseClimbing
                 Console.WriteLine($"Dynamic Programming = { DynamicProgram.CountWays(stairCounts, maxSteps)}"));
 
             t1.Start();
-            t2.Start();
-            t3.Start();
+             t2.Start();
+           t3.Start();
             Console.ReadLine();
         }
 

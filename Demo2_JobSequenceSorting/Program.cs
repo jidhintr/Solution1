@@ -15,12 +15,9 @@ namespace Demo2_JobSequenceSorting
 
 
             Console.WriteLine("Welcome to job logical job ordering");
+ 
 
-            // Assuming the jobs are 1 letter in length
-            // Assuming split character as > with 1 length
-            // More details in ReadMe.Txt file
-
-            var jobLists = new List<string> { "a", "b>c", "c>f", "d>a", "e>b", "f" };
+            var jobLists = new List<string> { "a", "b>c", "c>f", "d>a", "e", "f>b" };
 
             Console.Write("Unsorted job list are : ");
             Console.WriteLine(string.Join(", ", jobLists.ToArray()));
@@ -119,12 +116,14 @@ namespace Demo2_JobSequenceSorting
         /// <returns>Prior job as per the logical orders</returns>
         private static string ExtractPriorJobFromList(IEnumerable<string> dependedntJobs, string job)
         {
-            return dependedntJobs.Where(a => a.StartsWith(job)).Select(s => s.Split('>').LastOrDefault()).FirstOrDefault();
+            return dependedntJobs.Where(a => a.StartsWith(job)).
+                Select(s => s.Split('>').LastOrDefault()).FirstOrDefault();
         }
 
         private static string ExtractSecondaryJobs(IEnumerable<string> dependedntJobs, string job)
         {
-            return dependedntJobs.Where(a => a.EndsWith(job)).Select(s => s.Split('>').FirstOrDefault()).FirstOrDefault();
+            return dependedntJobs.Where(a => a.EndsWith(job)).
+                Select(s => s.Split('>').FirstOrDefault()).FirstOrDefault();
         }
 
 
